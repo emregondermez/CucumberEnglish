@@ -33,9 +33,6 @@ public class GMIBankStepDefinitions {
     }
 
 
-    @Given("user click on the second sign in button")
-    public void user_click_on_the_login_button() {
-        gmiBankPage.signInButton.click();
-    }
+
 
 }
