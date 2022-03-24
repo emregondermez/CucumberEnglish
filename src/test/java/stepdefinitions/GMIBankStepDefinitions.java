@@ -63,6 +63,11 @@ public class GMIBankStepDefinitions {
     public void user_provides_phone_number(String phone) {
     gmiBankPage.mobilephoneTextBox.sendKeys(phone);
     }
+    @Given("user provides user name {string}")
+    public void user_provides_username(String username) {
+   gmiBankPage.RegistrationUsernameTextBox.sendKeys(username);
+    }
+
     @Given("user sends email address as {string}")
     public void user_sends_email_address_as(String email) {
     gmiBankPage.emailTextBox.sendKeys(email);
