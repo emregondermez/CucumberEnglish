@@ -3,9 +3,9 @@ package stepdefinitions;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
-import pages.GooglePage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import pages.*;
+import utilities.*;
+import utilities.*;
 
 
 public class GoogleStepDefinitions {

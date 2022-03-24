@@ -29,6 +29,40 @@ public class GMIBankPage {
     public WebElement signInButton;
 
 
+    @FindBy(xpath = "//input[@name='ssn']")
+    public WebElement ssnTextBox;
+
+    @FindBy(xpath = "//input[@name='firstname']")
+    public WebElement firstnameTextBox;
+
+    @FindBy(xpath = "//input[@name='lastname']")
+    public WebElement lastnameTextBox;
+
+    @FindBy(xpath = "//input[@name='address']")
+    public WebElement addressTextBox;
+
+
+    @FindBy(xpath = "//input[@name='mobilephone']")
+    public WebElement mobilephoneTextBox;
+
+    @FindBy(xpath = "//input[@name='username']")
+    public WebElement RegistrationUsernameTextBox;
+
+    @FindBy(xpath = "//input[@name='email']")
+    public WebElement emailTextBox;
+
+    @FindBy(xpath = "//input[@name='firstPassword']")
+    public WebElement firstPasswordTextBox;
+
+    @FindBy(xpath = "//input[@name='secondPassword']")
+    public WebElement secondPasswordTextBox;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement registerButton;
+
+
+
+
 
 
 
