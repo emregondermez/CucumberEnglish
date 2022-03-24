@@ -2,8 +2,8 @@ package stepdefinitions;
 
 import io.cucumber.java.en.*;
 import pages.GMIBankPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import utilities.*;
+import utilities.*;
 
 public class GMIBankStepDefinitions {
 
