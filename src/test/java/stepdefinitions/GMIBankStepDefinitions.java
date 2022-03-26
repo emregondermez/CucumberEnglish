@@ -81,8 +81,7 @@ public class GMIBankStepDefinitions {
     public void user_click_on_the_register_button() {
     gmiBankPage.registerButton.click();
     }
-    @Given("user see the successfully registrated message")
-    public void user_see_the_successfully_registrated_message() {
-
-    }
+//    @Given("user see the successfully registrated message")
+//    public void user_see_the_successfully_registrated_message() {
+//    }
 }
