@@ -12,7 +12,7 @@ Feature: registration feature
     And user sends email address as "<email>"
     And user provides password "<password>"
     And user click on the register button
-  #  And user see the successfully registrated message
+
 
     Examples:
     |ssn|firstname|lastname|address|phoneNumber|username|email|password|
